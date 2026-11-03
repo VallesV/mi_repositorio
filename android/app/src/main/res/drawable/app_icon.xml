@@ -1,0 +1,40 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- fondo verde petróleo -->
+    <path android:fillColor="#0F6F66"
+        android:pathData="M14,2 H94 C100.6,2 106,7.4 106,14 V94 C106,100.6 100.6,106 94,106 H14 C7.4,106 2,100.6 2,94 V14 C2,7.4 7.4,2 14,2 Z"/>
+    <!-- sombra suave de la billetera -->
+    <path android:fillColor="#164B47" android:fillAlpha="0.35"
+        android:pathData="M21,48 C21,42 25,38 31,38 H80 C86,38 90,42 90,48 V81 C90,87 86,91 80,91 H31 C25,91 21,87 21,81 Z"/>
+    <!-- tarjetas -->
+    <path android:fillColor="#7ED9B4"
+        android:pathData="M29,38 L66,19 C69,17.5 72.5,18.6 74,21.5 L79,31 L42,44 Z"/>
+    <path android:fillColor="#159A89"
+        android:pathData="M33,42 L75,28 C78,27 81,28.5 82,31.5 L85,40 L45,48 Z"/>
+    <!-- billetera crema -->
+    <path android:fillColor="#FFF4E6"
+        android:pathData="M20,46 C20,40 24.5,36 30,36 H79 C85,36 89,40.5 89,46 V79 C89,85 85,89 79,89 H30 C24,89 20,85 20,79 Z"/>
+    <!-- costuras superiores -->
+    <path android:strokeColor="#159A89" android:strokeWidth="2.2" android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M25,43 H31 M35,43 H41 M45,43 H51 M55,43 H61 M65,43 H71 M75,43 H81"/>
+    <!-- costuras inferiores -->
+    <path android:strokeColor="#159A89" android:strokeWidth="2.2" android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M25,82 H31 M35,82 H41 M45,82 H51 M55,82 H61 M65,82 H71 M75,82 H81"/>
+    <!-- letra M -->
+    <path android:fillColor="#0A4F4A"
+        android:pathData="M30,66 V48 H35.5 L42,57 L48.5,48 H54 V66 H49 V55.5 L42,64 L35,55.5 V66 Z"/>
+    <!-- letra D -->
+    <path android:fillColor="#0A4F4A"
+        android:pathData="M58,48 H67 C76,48 81,51.5 81,57 C81,62.5 76,66 67,66 H58 Z M63,52 V62 H67 C72.5,62 76,60.2 76,57 C76,53.8 72.5,52 67,52 Z"/>
+    <!-- solapa -->
+    <path android:fillColor="#159A89"
+        android:pathData="M76,55 C76,51.7 78.7,49 82,49 H94 C97.3,49 100,51.7 100,55 V69 C100,72.3 97.3,75 94,75 H82 C78.7,75 76,72.3 76,69 Z"/>
+    <!-- broche -->
+    <path android:fillColor="#FFF4E6"
+        android:pathData="M91,62 m-4.5,0 a4.5,4.5 0,1 0,9 0 a4.5,4.5 0,1 0,-9 0"/>
+</vector>
